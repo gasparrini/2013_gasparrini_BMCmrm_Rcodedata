@@ -1,5 +1,5 @@
 
-### Updated R code and data from Gasparrini & Armstrong, BMC Medical Research Methodology 2013
+### Updated R code and data from Gasparrini & Armstrong BMCmrm 2013
 
 --------------------------------------------------------------------------------
 
@@ -14,6 +14,6 @@ The code uses functions in the R packages dlnm and mvmeta.
 The code:
 
   * *regEngWales.csv* stores the daily time series data from 10 locations corresponding to regions of England and Wales in the period 1993–2006
-  * the numbered files from *01.prep.R* to *06.metareg* reproduce the results of the illustrative example
+  * the numbered files from *01.prep.R* to *06.metareg.R* reproduce the results of the illustrative example
 
 Download as a ZIP file using the green button *Clone or download* above
