@@ -7,7 +7,7 @@ An illustration on methods for reducing estimates of bi-dimensional exposure-lag
 
 Gasparrini A, Armstrong B. Reducing and meta-analysing estimates from distributed lag non-linear models. *BMC Medical Research Methodology*. 2013;**13**(1):1. [[freely available here](http://www.ag-myresearch.com/2013_gasparrini_bmcmrm.html)]
 
-The code uses functions in the R packages dlnm and mvmeta.
+The code uses functions in the R packages [R package dlnm](https://github.com/gasparrini/dlnm) and [R package mvmeta](https://github.com/gasparrini/mvmeta).
 
 --------------------------------------------------------------------------------
 
