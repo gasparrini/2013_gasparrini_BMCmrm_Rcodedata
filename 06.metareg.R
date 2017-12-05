@@ -6,7 +6,7 @@
 #   BMC Medical Research Methodology - 2013
 #   http://www.ag-myresearch.com/2013_gasparrini_bmcmrm.html
 #
-# Update: 15 January 2017
+# Update: 05 December 2017
 # * an updated version of this code, compatible with future versions of the
 #   software, is available at:
 #   http://www.ag-myresearch.com/2013_gasparrini_bmcmrm.html

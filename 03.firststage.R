@@ -6,7 +6,7 @@
 #   BMC Medical Research Methodology - 2013
 #   http://www.ag-myresearch.com/2013_gasparrini_bmcmrm.html
 #
-# Update: 15 January 2017
+# Update: 05 December 2017
 # * an updated version of this code, compatible with future versions of the
 #   software, is available at:
 #   http://www.ag-myresearch.com/2013_gasparrini_bmcmrm.html
@@ -140,8 +140,8 @@ for(i in seq(data)) {
 
 # TEST: REDUCTION OF ALTERNATIVE MODELS TO THE SPACE OF THE PREDICTOR RETURNS
 # THE SAME PARAMETERS APART FROM SCALING (SUMMED UPON 22 LAGS)
-coef(crosspred(cb3,mfirst3))
-coef(crossreduce(cb3,mfirst3))/22
+coef(crosspred(cb3,mfirst3,cen=17))
+coef(crossreduce(cb3,mfirst3,cen=17))/22
 
 # GRAND Q-AIC
 sum(qaic) ; sum(qaic2) ; sum(qaic3)
